@@ -1,11 +1,11 @@
-import React from 'react'
-import './footer.css'
+import React from "react";
+import "./footer.css";
 import FacebookIcon from "@mui/icons-material/Facebook";
-import InstagramIcon from '@mui/icons-material/Instagram'
+import InstagramIcon from "@mui/icons-material/Instagram";
 import XIcon from "@mui/icons-material/X";
-import YouTubeIcon from '@mui/icons-material/Youtube'
+import YouTubeIcon from "@mui/icons-material/Youtube";
 const Footer = () => {
-  return (
+	return (
 		<>
 			<div className="footer_outer_container">
 				<div className="footer_inner_container">
@@ -54,6 +54,6 @@ const Footer = () => {
 			</div>
 		</>
 	);
-}
+};
 
-export default Footer
+export default Footer;
