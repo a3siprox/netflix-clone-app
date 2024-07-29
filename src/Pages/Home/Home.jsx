@@ -1,12 +1,12 @@
-import React from 'react'
-import Header from '../../components/Header/Header'
-import Footer from '../../components/Footer/Footer'
-import Banner from '../../components/Banner/Banner'
-import Row from '../../components/Row/Row.jsx'
+import React from "react";
+import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
+import Banner from "../../components/Banner/Banner";
+import Row from "../../components/Row/Row.jsx";
 import requests from "../../components/utils/requests.js";
 
 function Home() {
-  return (
+	return (
 		<>
 			<Header />
 			<Banner />
@@ -26,4 +26,4 @@ function Home() {
 	);
 }
 
-export default Home
+export default Home;
