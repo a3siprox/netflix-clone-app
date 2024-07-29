@@ -13,7 +13,7 @@ const Footer = () => {
 						<FacebookIcon />
 						<XIcon />
 						<InstagramIcon />
-						<YouTubeIcon />
+						{/* <YouTubeIcon /> */}
 					</div>
 					<div className="footer_data">
 						<div>
